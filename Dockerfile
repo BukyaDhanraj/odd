@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /
 
 # Copy the Java source file (OddNumbers.java) into the container
-COPY OddNumbers.java
+COPY OddNumbers.java .
 
 # Compile the Java code
 RUN javac OddNumbers.java
